@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5B742BC1C627709003D9BC6 /* StickCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B742BB1C627709003D9BC6 /* StickCollectionViewFlowLayout.swift */; };
+		A5B742BE1C62DAE5003D9BC6 /* SCWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B742BD1C62DAE5003D9BC6 /* SCWelcomeViewController.swift */; };
+		A5B742C01C62DDEC003D9BC6 /* SCPrimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B742BF1C62DDEC003D9BC6 /* SCPrimerViewController.swift */; };
+		A5B742C21C6420DE003D9BC6 /* SCPrimerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B742C11C6420DE003D9BC6 /* SCPrimerCollectionViewCell.swift */; };
 		B245D4AD1C5810E4008CC42B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B245D4AC1C5810E4008CC42B /* Images.xcassets */; };
 		B25B6D691C16143F00B3CCF7 /* SCCustomizableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B25B6D681C16143F00B3CCF7 /* SCCustomizableButton.m */; };
 		B25B6D6C1C16150000B3CCF7 /* SCWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25B6D6B1C16150000B3CCF7 /* SCWelcomeViewController.m */; };
@@ -23,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5B742BA1C627709003D9BC6 /* StickyCollectionView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StickyCollectionView-Bridging-Header.h"; path = "Source/StickyCollectionView-Bridging-Header.h"; sourceTree = "<group>"; };
+		A5B742BB1C627709003D9BC6 /* StickCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		A5B742BD1C62DAE5003D9BC6 /* SCWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCWelcomeViewController.swift; sourceTree = "<group>"; };
+		A5B742BF1C62DDEC003D9BC6 /* SCPrimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCPrimerViewController.swift; sourceTree = "<group>"; };
+		A5B742C11C6420DE003D9BC6 /* SCPrimerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCPrimerCollectionViewCell.swift; sourceTree = "<group>"; };
 		B245D4AC1C5810E4008CC42B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B25B6D671C16143F00B3CCF7 /* SCCustomizableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCustomizableButton.h; sourceTree = "<group>"; };
 		B25B6D681C16143F00B3CCF7 /* SCCustomizableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCustomizableButton.m; sourceTree = "<group>"; };
@@ -88,6 +97,8 @@
 				B25F96151C5809B50066E89E /* SCPrimerViewController.m */,
 				B25B6D6A1C16150000B3CCF7 /* SCWelcomeViewController.h */,
 				B25B6D6B1C16150000B3CCF7 /* SCWelcomeViewController.m */,
+				A5B742BD1C62DAE5003D9BC6 /* SCWelcomeViewController.swift */,
+				A5B742BF1C62DDEC003D9BC6 /* SCPrimerViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -99,6 +110,7 @@
 				B2E5D4651BB027C10003E76E /* SCCornerCollectionViewCell.m */,
 				B25F96171C5809BE0066E89E /* SCPrimerCollectionViewCell.h */,
 				B25F96181C5809BE0066E89E /* SCPrimerCollectionViewCell.m */,
+				A5B742C11C6420DE003D9BC6 /* SCPrimerCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -134,6 +146,7 @@
 		B2E5D4311BB00D510003E76E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5B742BA1C627709003D9BC6 /* StickyCollectionView-Bridging-Header.h */,
 				B245D4AC1C5810E4008CC42B /* Images.xcassets */,
 				B2E5D43B1BB00D510003E76E /* Main.storyboard */,
 				B2E5D4401BB00D510003E76E /* LaunchScreen.xib */,
@@ -148,6 +161,7 @@
 			children = (
 				B2E5D4601BB00F1F0003E76E /* StickCollectionViewFlowLayout.h */,
 				B2E5D4611BB00F1F0003E76E /* StickCollectionViewFlowLayout.m */,
+				A5B742BB1C627709003D9BC6 /* StickCollectionViewFlowLayout.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -197,6 +211,7 @@
 		B2E5D4261BB00D510003E76E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Bogdan Matveev";
 				TargetAttributes = {
@@ -250,7 +265,11 @@
 				B25F96161C5809B50066E89E /* SCPrimerViewController.m in Sources */,
 				B25B6D731C176B4100B3CCF7 /* UIColor+Hex.m in Sources */,
 				B2E5D45F1BB00E5F0003E76E /* SCCornerViewController.m in Sources */,
+				A5B742BE1C62DAE5003D9BC6 /* SCWelcomeViewController.swift in Sources */,
 				B25B6D6C1C16150000B3CCF7 /* SCWelcomeViewController.m in Sources */,
+				A5B742C01C62DDEC003D9BC6 /* SCPrimerViewController.swift in Sources */,
+				A5B742C21C6420DE003D9BC6 /* SCPrimerCollectionViewCell.swift in Sources */,
+				A5B742BC1C627709003D9BC6 /* StickCollectionViewFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,9 +379,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = StickCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = StickyCollectionView;
+				SWIFT_OBJC_BRIDGING_HEADER = "StickCollectionView/Source/StickyCollectionView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -370,9 +392,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = StickCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = StickyCollectionView;
+				SWIFT_OBJC_BRIDGING_HEADER = "StickCollectionView/Source/StickyCollectionView-Bridging-Header.h";
 			};
 			name = Release;
 		};
